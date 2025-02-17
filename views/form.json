@@ -1,0 +1,205 @@
+[
+    {
+        "xtype": "displayfield",
+        "ui": "parameter-head",
+        "fieldLabel": "#Date",
+        "labelWidth": 90,
+        "name": "date"
+    }, 
+    {
+        "xtype": "displayfield",
+        "ui": "parameter-head",
+        "fieldLabel": "#Ip address",
+        "labelWidth": 90,
+        "name": "userIpaddress"
+    }, 
+    {
+        "html": "<br>"
+    },
+    {
+        "xtype": "label",
+        "ui": "header",
+        "text": "#User"
+    }, 
+    {
+        "xtype": "displayfield",
+        "ui": "parameter",
+        "fieldLabel": "ID",
+        "labelWidth": 90,
+        "labelAlign": "right",
+        "name": "userId"
+    }, 
+    {
+        "xtype": "displayfield",
+        "ui": "parameter",
+        "fieldLabel": "#Detail",
+        "labelWidth": 90,
+        "labelAlign": "right",
+        "name": "userDetail"
+    },
+    {
+        "xtype": "displayfield",
+        "ui": "parameter",
+        "fieldLabel": "#User",
+        "labelWidth": 90,
+        "labelAlign": "right",
+        "name": "userName"
+    },
+    {
+        "xtype": "displayfield",
+        "ui": "parameter",
+        "fieldLabel": "#Permission",
+        "labelWidth": 90,
+        "labelAlign": "right",
+        "name": "userPermission"
+    },
+    {
+        "xtype": "label",
+        "ui": "header",
+        "text": "#Module"
+    },
+    {
+        "xtype": "displayfield",
+        "ui": "parameter",
+        "fieldLabel": "ID",
+        "labelWidth": 90,
+        "labelAlign": "right",
+        "name": "moduleId"
+    },
+    {
+        "xtype": "displayfield",
+        "ui": "parameter",
+        "fieldLabel": "#Name",
+        "labelWidth": 90,
+        "labelAlign": "right",
+        "name": "moduleName"
+    },
+    {
+        "xtype": "label",
+        "ui": "header",
+        "text": "#Controller"
+    },
+    {
+        "xtype": "displayfield",
+        "ui": "parameter",
+        "fieldLabel": "ID",
+        "labelWidth": 90,
+        "labelAlign": "right",
+        "name": "queryId"
+    },
+    {
+        "xtype": "displayfield",
+        "ui": "parameter",
+        "fieldLabel": "#Action",
+        "labelWidth": 90,
+        "labelAlign": "right",
+        "name": "controllerAction"
+    },
+    {
+        "xtype": "displayfield",
+        "ui": "parameter",
+        "fieldLabel": "#Event",
+        "labelWidth": 90,
+        "labelAlign": "right",
+        "name": "controllerEvent"
+    },
+    {
+        "xtype": "displayfield",
+        "ui": "parameter",
+        "fieldLabel": "#Name",
+        "labelWidth": 90,
+        "labelAlign": "right",
+        "name": "controllerName"
+    },
+    {
+        "xtype": "label",
+        "ui": "header",
+        "text": "#Request"
+    },
+    {
+        "xtype": "displayfield",
+        "ui": "parameter",
+        "fieldLabel": "#OS",
+        "labelWidth": 90,
+        "labelAlign": "right",
+        "name": "metaOs"
+    },
+    {
+        "xtype": "displayfield",
+        "ui": "parameter",
+        "fieldLabel": "#Browser",
+        "labelWidth": 90,
+        "labelAlign": "right",
+        "name": "metaBrowser"
+    },
+    {
+        "xtype": "displayfield",
+        "ui": "parameter",
+        "fieldLabel": "#Request method",
+        "labelWidth": 90,
+        "labelAlign": "right",
+        "name": "requestMethod"
+    },
+    {
+        "xtype": "displayfield",
+        "ui": "parameter",
+        "fieldLabel": "#Route",
+        "labelWidth": 90,
+        "labelAlign": "right",
+        "name": "requestUrl"
+    },
+    {
+        "xtype": "textarea",
+        "ui": "parameter",
+        "fieldLabel": "#Request parameters",
+        "readOnly": true,
+        "labelWidth": 90,
+        "labelAlign": "right",
+        "height": 90,
+        "width": "100%",
+        "fieldStyle": "font: 14px 'Roboto Condensed', helvetica, arial, verdana, sans-serif",
+        "name": "queryParams"
+    },
+    {
+        "xtype": "displayfield",
+        "ui": "parameter",
+        "fieldLabel": "#Comment",
+        "labelAlign": "right",
+        "labelWidth": 90,
+        "name": "comment"
+    },
+    {
+        "xtype": "label",
+        "ui": "header",
+        "text": "#Error"
+    },
+    {
+        "xtype": "displayfield",
+        "ui": "parameter",
+        "fieldLabel": "#Error code",
+        "labelAlign": "right",
+        "labelWidth": 90,
+        "name": "errorCode"
+    },
+    {
+        "xtype": "displayfield",
+        "ui": "parameter",
+        "fieldLabel": "#Error text",
+        "labelAlign": "right",
+        "labelWidth": 90,
+        "name": "error"
+    },
+    {
+        "xtype": "textarea",
+        "ui": "parameter",
+        "fieldLabel": "#Parameters",
+        "labelAlign": "right",
+        "readOnly": true,
+        "labelWidth": 90,
+        "height": 90,
+        "width": "100%",
+        "style": "margin-top: 10px",
+        "fieldStyle": "font: 14px 'Roboto Condensed', helvetica, arial, verdana, sans-serif",
+        "name": "errorParams"
+    }
+]
