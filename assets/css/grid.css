@@ -1,0 +1,34 @@
+/*!
+ * Сетка (Grid).
+ *
+ * Модуль "Журнал аудита".
+ *
+ * Copyright 2015 Вeб-студия GearMagic
+ * Copyright Anton Tivonenko <anton.tivonenko@gmail.com>
+ * https://gearmagic.ru/license/
+ */
+
+/* Заливка заднего фона сетки (см. идент. viewManager) */
+#gm-audit-grid .x-grid-view {
+    background: url("../images/watermark.svg") no-repeat calc(100% - 25px) calc(100% - 20px);
+    background-size: 100px;
+}
+
+
+/**
+ * Ячейки сетки.
+ */
+/* Комментарий */
+.gm-audit__grid-cell-comment { color:#666666; }
+/* Значок "Выполнить" */
+.gm-audit__icon-execute { background-image: url(../images/icon-execute.svg); }
+
+
+/**
+ * Панель инструментов сетки.
+ */
+ /* Значок "Настройки" */
+ .gm-audit__icon-settings_large,
+ .gm-audit__icon-settings_medium,
+ .gm-audit__icon-settings { background-image: url("../images/icon-settings.svg"); }
+ .gm-audit__icon-settings_small { background-image: url("../images/icon-settings_small.svg"); }
