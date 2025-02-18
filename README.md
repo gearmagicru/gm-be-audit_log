@@ -12,7 +12,7 @@
 ![php 8.2+](https://img.shields.io/badge/php-min%208.2-red.svg)
 
 ## Скриншот
-<img src="https://github.com/gearmagicru/gm-be-audit_log/blob/main/assets/help/grid.png?raw=true">
+<img src="https://github.com/gearmagicru/gm-be-audit_log/blob/master/assets/help/grid.png?raw=true">
 
 ## Установка
 
