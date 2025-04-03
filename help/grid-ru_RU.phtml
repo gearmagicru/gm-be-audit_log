@@ -15,40 +15,39 @@
     <div class="g-help-screen g-help-screen--hidable">
         <img src="<?= $assetsUrl, '/help/grid.png' ?>" />
     </div>
-    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua</p>
+    <p>В списке отображаются все действия пользователей.</p>
     <h2>Столбцы списка</h2>
     <ul class="g-help-list">
-        <li><b>Дата.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><b>Пользователь / IP адрес.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><b>Пользователь / ID.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><b>Пользователь / Пользователь.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><b>Пользователь / Имя.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><b>Пользователь / Права доступа.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><b>Модуль / ID.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><b>Модуль / Название.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><b>Контроллер / Название.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><b>Модуль / Действие.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><b>Модуль / Событие.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><b>Модуль / ID.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><b>Запрос / ОС.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><b>Запрос / .</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><b>Запрос / Браузер.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><b>Запрос / Маршрут.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><b>Запрос / Метод.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><b>Запрос / Код.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><b>Успех</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
+        <li><b>Дата.</b> Дата и время действия пользователя;</li>
+        <li><b>Пользователь / IP адрес.</b> IP адрес действия пользователя;</li>
+        <li><b>Пользователь / ID.</b> Идентификатор пользователя совершивший действие;</li>
+        <li><b>Пользователь / Пользователь.</b> Логин пользователя совершивший действие;</li>
+        <li><b>Пользователь / Имя.</b> Имя пользователя совершивший действие;</li>
+        <li><b>Пользователь / Права доступа.</b> Права доступа (разрешение) под которым было выполнено действие пользователя;</li>
+        <li><b>Модуль / ID.</b> Идентификатор модуля выполнивший запрос пользователя;</li>
+        <li><b>Модуль / Название.</b> Название модуля выполнивший запрос пользователя;</li>
+        <li><b>Контроллер / Название.</b> Идентификатор контроллера выполнивший запрос пользователя;</li>
+        <li><b>Контроллер / Действие.</b> Действие контроллера выполнивший запрос пользователя;</li>
+        <li><b>Контроллер / Событие.</b> Событие контроллера выполнивший запрос пользователя;</li>
+        <li><b>Контроллер / ID.</b> Идентификатор действия контроллера или записи над которой совершено действие;</li>
+        <li><b>Запрос / ОС.</b> Название и версия операционной системы пользователя совершивший действие;</li>
+        <li><b>Запрос / Браузер.</b> Название и версия браузера пользователя совершивший действие;</li>
+        <li><b>Запрос / Маршрут.</b> Маршрут полученный из запроса пользователя;</li>
+        <li><b>Запрос / Метод.</b> Метод получения запроса от пользователя;</li>
+        <li><b>Запрос / Код.</b> Код ответа возвращаемый пользователю в результате его запроса;</li>
+        <li><b>Успех.</b> По коду определяет успешность выполнения запроса пользователем.</li>
     </ul>
 
     <h2>Панель инструментов</h2>
     <ul class="g-help-list">
-        <li><img class="g-help-icon" src="<?= $themeUrl, '/assets/icons/svg/basic/cleanup.svg' ?>" /> <b>Очистить.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><img class="g-help-icon" src="<?= $themeUrl, '/widgets/images/grid/grid-edit.svg' ?>" /> <b>Правка.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><img class="g-help-icon" src="<?= $themeUrl, '/widgets/images/grid/grid-select.svg' ?>" /> <b>Выделить.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><img class="g-help-icon" src="<?= $themeUrl, '/assets/icons/svg/basic/refresh.svg' ?>" /> <b>Обновить.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><img class="g-help-icon" src="<?= $themeUrl, '/widgets/images/grid/grid-profiling-off.svg' ?>" /> <b>Профилирование записи.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><img class="g-help-icon" src="<?= $themeUrl, '/widgets/images/grid/grid-toggle-columns-off.svg' ?>" /> <b>Показать.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><img class="g-help-icon" src="<?= $themeUrl, '/widgets/images/grid/grid-columns.svg' ?>" /> <b>Столбцы.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><img class="g-help-icon" src="<?= $themeUrl, '/assets/icons/svg/basic/help.svg' ?>" /> <b>Справка.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><img class="g-help-icon" src="<?= $themeUrl, '/assets/icons/svg/basic/search.svg' ?>" /> <b>Поиск.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/assets/icons/svg/basic/cleanup.svg' ?>" /> <b>Очистить.</b> Удаляет все записи аудита;</li>
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/widgets/images/grid/grid-edit.svg' ?>" /> <b>Правка.</b> Вызвает форму для просмотра подробной информации о записи аудита;</li>
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/widgets/images/grid/grid-select.svg' ?>" /> <b>Выделить.</b> Выделяет или убирает выделение записей аудита;</li>
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/assets/icons/svg/basic/refresh.svg' ?>" /> <b>Обновить.</b> Обновляет список записей аудита;</li>
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/widgets/images/grid/grid-profiling-off.svg' ?>" /> <b>Профилирование записи.</b> Разворачивает и сворачивает Панель навигации для отображения информации выбранной записи аудита;</li>
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/widgets/images/grid/grid-toggle-columns-off.svg' ?>" /> <b>Показать.</b> Показывает  скрытые столбцы;</li>
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/assets/icons/svg/basic/help.svg' ?>" /> <b>Справка.</b> Вызывает окно справочной информации для текущего списка;</li>
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/assets/icons/svg/basic/search.svg' ?>" /> <b>Поиск.</b> Вызывает форму поиска записей в списке;</li>
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/assets/icons/svg/basic/filter.svg' ?>" /> <b>Фильтр.</b> Вызывает форму фильтрации записей в списке.</li>
     </ul>
 </article>
